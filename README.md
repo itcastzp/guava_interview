@@ -262,7 +262,7 @@ public static Something getInstance() {
 
 -------------------------
 #### <span id="12">12. 如果我正在编写VM怎么办？ </span>
->>你应该看看http://gee.cs.oswego.edu/dl/jmm/cookbook.html。 我为什么要在乎？ 你为什么要关心？并发错误很难调试。它们通常不会出现在测试中，等待您的程序在高负载下运行，并且难以重现和陷阱。您最好提前花费额外的精力来确保您的程序正确同步;虽然这并不容易，但它比尝试调试严重同步的应用程序要容易得多。
+>>你应该看看原文http://gee.cs.oswego.edu/dl/jmm/cookbook.html ，或https://github.com/itcastzp/guava_interview/blob/master/JMM_CookBook.md 我为什么要在乎？ 你为什么要关心？并发错误很难调试。它们通常不会出现在测试中，等待您的程序在高负载下运行，并且难以重现和陷阱。您最好提前花费额外的精力来确保您的程序正确同步;虽然这并不容易，但它比尝试调试严重同步的应用程序要容易得多。
 
 
 
